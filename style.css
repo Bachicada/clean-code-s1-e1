@@ -157,7 +157,7 @@ button {
 }
 
 /* Completed */
-.completed {
+.list__label_completed {
     text-decoration: line-through;
     color: #888;
 }

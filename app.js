@@ -136,7 +136,7 @@ var taskCompleted=function(){
     bindTaskEvents(listItem, taskIncomplete);
     var listLabel=listItem.querySelector(".task");
     console.log(listLabel)
-    listLabel.classList.add("completed");
+    listLabel.classList.add("list__label_completed");
 
 }
 
