@@ -1,15 +1,15 @@
 /* Basic Style */
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 li, h3 {
-    list-style:none;
+    list-style: none;
 }
 
-input,button{
-    outline:none;
+input,button {
+    outline: none;
 }
 
 .app-body {
@@ -33,7 +33,7 @@ input,button{
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
 .top-matrix { 
     text-align: center;
@@ -97,7 +97,7 @@ input,button{
 }
 
 .task-input{
-    display:block;
+    display: block;
 }
 
 .list__input{
@@ -162,10 +162,10 @@ input,button{
 
 /* Edit Task */
 .edit-mode .list__input {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
+    width: 224px;
 }
 
 .toggle-save {
-    display:none;
+    display: none;
 }
